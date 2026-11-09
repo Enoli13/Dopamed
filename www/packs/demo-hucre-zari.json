@@ -1,0 +1,43 @@
+{
+  "id": "demo-hucre-zari",
+  "title": "Hücre Zarı ve Taşıma (Demo)",
+  "course": "Tıbbi Biyoloji",
+  "emoji": "🧫",
+  "demo": true,
+  "topics": [
+    { "name": "Zarın yapısı" },
+    { "name": "Pasif taşıma" },
+    { "name": "Aktif taşıma" },
+    { "name": "Veziküler taşıma" },
+    { "name": "Klinik bağlantılar" }
+  ],
+  "cards": [
+    { "id": "z1", "type": "info", "topic": "Zarın yapısı", "emoji": "🌊", "hook": "Hücre zarın aslında katı değil, yağ denizinde yüzen bir mozaik", "body": "**Akıcı mozaik modeli** (Singer ve Nicolson, 1972): Fosfolipit çift katmanı akışkan bir zemin oluşturur, proteinler bu zeminde yüzer ve yer değiştirebilir.", "mnemonic": "Singer-Nicolson = 'Sing a Nice song' — zar dans ediyor, sabit durmuyor." },
+    { "id": "z2", "type": "info", "topic": "Zarın yapısı", "emoji": "🧲", "hook": "Fosfolipit hem suyu sever hem sudan kaçar. Nasıl?", "body": "Fosfolipitler **amfipatiktir**: fosfatlı baş **hidrofilik**, iki yağ asidi kuyruğu **hidrofobiktir**. Suda kendiliğinden kuyruklar içe, başlar dışa dönük **çift katman** oluştururlar." },
+    { "id": "z3", "type": "info", "topic": "Zarın yapısı", "emoji": "🌡️", "hook": "Kolesterol zarın termostatıdır", "body": "Yüksek sıcaklıkta fosfolipit hareketini kısıtlayıp **akışkanlığı azaltır**, düşük sıcaklıkta kuyrukların sıkı paketlenmesini engelleyip **donmayı önler**. Yani akışkanlık için bir **tampon** gibi çalışır." },
+    { "id": "z4", "type": "tf", "topic": "Zarın yapısı", "hook": "Termostat sorusu 🌡️", "statement": "Kolesterol, zarın akışkanlığını her sıcaklıkta artırır.", "answer": false, "explain": "Kolesterol tampon gibi çalışır: sıcakta akışkanlığı azaltır, soğukta katılaşmayı önler." },
+    { "id": "z5", "type": "info", "topic": "Zarın yapısı", "emoji": "🪞", "hook": "Zarın iki yüzü birbirinin aynısı değil", "body": "Zar **asimetriktir**. Dış yüzde ağırlıklı olarak **fosfatidilkolin** ve **sfingomiyelin** bulunur. İç yüzde ise **fosfatidilserin**, **fosfatidiletanolamin** ve **fosfatidilinozitol** baskındır. Karbonhidratlar (glikokaliks) **yalnızca dış yüzdedir**." },
+    { "id": "z6", "type": "info", "topic": "Zarın yapısı", "emoji": "💀", "hook": "Bir lipit dış yüze geçince hücre 'beni ye' sinyali verir", "body": "Normalde iç yüzde duran **fosfatidilserin** dış yüze çıkarsa makrofajlar bunu **apoptoz** işareti olarak tanır ve hücreyi fagosite eder.", "mnemonic": "PS = 'Please Swallow' 🍽️" },
+    { "id": "z7", "type": "mcq", "topic": "Zarın yapısı", "hook": "Asimetri tuzağı 🪞", "question": "Sağlıklı bir hücrede plazma zarının sitoplazmik (iç) yüzünde ağırlıklı olarak bulunan fosfolipit hangisidir?", "options": ["Sfingomiyelin", "Fosfatidilkolin", "Fosfatidilserin", "Glikolipit", "Gangliozit"], "answer": 2, "explain": "Fosfatidilserin iç yüzde bulunur, dış yüze çıkması apoptoz sinyalidir. Sfingomiyelin, fosfatidilkolin ve glikolipitler dış yüzde baskındır." },
+    { "id": "z8", "type": "info", "topic": "Zarın yapısı", "emoji": "🔩", "hook": "Zar proteinleri ikiye ayrılır: kazıklar ve misafirler", "body": "**İntegral (transmembran)** proteinler zarı boydan boya geçer ve ancak deterjanla çıkarılabilir. **Periferik** proteinler zar yüzeyine zayıf bağlarla tutunur ve tuz/pH değişimiyle kolayca ayrılır." },
+
+    { "id": "p1", "type": "info", "topic": "Pasif taşıma", "emoji": "💨", "hook": "O₂ kapıyı çalmaz, zarın içinden geçip gider", "body": "**Basit difüzyon**: küçük ve apolar moleküller (**O₂, CO₂**, steroid hormonlar) konsantrasyon gradyanı yönünde doğrudan lipit katmanından geçer. **Enerji ve taşıyıcı gerekmez.**" },
+    { "id": "p2", "type": "info", "topic": "Pasif taşıma", "emoji": "🚪", "hook": "Kolaylaştırılmış difüzyonun bir hız sınırı var", "body": "Taşıyıcı proteinle gerçekleşir, enerji harcanmaz ama taşıyıcılar dolunca hız artmaz: **doygunluk (Vmax)** gösterir. Örnek: **GLUT** glukoz taşıyıcıları.", "mnemonic": "Taşıyıcı varsa trafik var → kuyruk = doygunluk." },
+    { "id": "p3", "type": "info", "topic": "Pasif taşıma", "emoji": "💉", "hook": "Kas ve yağ hücresi, insülin gelmeden glukozu kapıda bekletir", "body": "**GLUT4** insüline bağımlıdır: insülin sinyaliyle veziküllerden **zara taşınır**. **Çizgili kas** ve **yağ dokusunda** bulunur." },
+    { "id": "p4", "type": "info", "topic": "Pasif taşıma", "emoji": "💧", "hook": "Su, tuzun peşinden gider", "body": "**Osmoz**: su, yarı geçirgen zardan çözünenin **az** olduğu yerden **çok** olduğu yere geçer. Hızlı su geçişi **akuaporin** kanallarıyla olur." },
+    { "id": "p5", "type": "mcq", "topic": "Pasif taşıma", "hook": "Kırmızı kan hücresi havuza düştü 🎈", "question": "Eritrositler hipotonik bir çözeltiye konursa ne olur?", "options": ["Büzüşür (krenasyon)", "Su alıp şişer, hemoliz olabilir", "Hiçbir değişiklik olmaz", "Aktif olarak Na⁺ alır", "Hacmi önce artar sonra sabit kalır"], "answer": 1, "explain": "Hipotonik ortamda dışarıda çözünen azdır. Su hücre içine geçer, hücre şişer ve patlayabilir (hemoliz). Hipertonik ortamda ise krenasyon olur." },
+    { "id": "p6", "type": "tf", "topic": "Pasif taşıma", "hook": "Hız sınırı sorusu 🚦", "statement": "Basit difüzyon, taşıyıcı proteinlere bağlı olduğu için doygunluk gösterir.", "answer": false, "explain": "Doygunluk kolaylaştırılmış difüzyonun özelliğidir. Basit difüzyonda taşıyıcı yoktur, hız gradyanla doğru orantılı artar." },
+
+    { "id": "a1", "type": "info", "topic": "Aktif taşıma", "emoji": "🔋", "hook": "Vücudun en çalışkan pompası: 3 dışarı, 2 içeri", "body": "**Na⁺/K⁺-ATPaz**: 1 ATP harcayarak **3 Na⁺'u dışarı**, **2 K⁺'u içeri** pompalar (**primer aktif taşıma**). Net bir pozitif yükü dışarı attığı için **elektrojeniktir**.", "mnemonic": "'3 Na dışarı, 2 Ka içeri' → Na3K2, 'NaKa 3-2' diye ezberle." },
+    { "id": "a2", "type": "mcq", "topic": "Aktif taşıma", "hook": "Kalp ilacı ve pompa 💊", "question": "Na⁺/K⁺-ATPaz pompasını inhibe eden kardiyak glikozit hangisidir?", "options": ["Furosemid", "Digoksin", "Omeprazol", "Amilorid", "Verapamil"], "answer": 1, "explain": "Digoksin (ve ouabain) Na⁺/K⁺-ATPaz'ı inhibe eder. Omeprazol H⁺/K⁺-ATPaz'ı, furosemid ise Na⁺-K⁺-2Cl⁻ kotransporterini inhibe eder." },
+    { "id": "a3", "type": "info", "topic": "Aktif taşıma", "emoji": "🎢", "hook": "Glukoz bazen bedavaya, sodyumun sırtında taşınır", "body": "**Sekonder aktif taşıma**: Na⁺/K⁺ pompasının kurduğu Na⁺ gradyanı kullanılır. Örneğin **SGLT1**, bağırsakta Na⁺ ile glukozu **aynı yönde (simport)** taşır. ATP doğrudan harcanmaz, gradyan harcanır." },
+    { "id": "a4", "type": "tf", "topic": "Aktif taşıma", "hook": "Bedava yolculuk mu? 🎢", "statement": "Sekonder aktif taşımada taşıyıcı protein ATP'yi doğrudan hidroliz eder.", "answer": false, "explain": "ATP'yi doğrudan harcayan primer aktif taşımadır. Sekonder aktif taşıma, primer pompanın kurduğu iyon gradyanının enerjisini kullanır." },
+
+    { "id": "v1", "type": "info", "topic": "Veziküler taşıma", "emoji": "🎯", "hook": "Hücre kolesterolü 'sipariş' ederek içeri alır", "body": "**Reseptör aracılı endositoz**: LDL, zardaki **LDL reseptörüne** bağlanır, **klatrin kaplı çukurcuklar** içe göçer ve vezikül oluşur. Fagositoz büyük partiküller, pinositoz sıvı alımı içindir." },
+    { "id": "v2", "type": "mcq", "topic": "Veziküler taşıma", "hook": "Kaplama sorusu 🧥", "question": "Reseptör aracılı endositozda plazma zarında oluşan çukurcukları kaplayan protein hangisidir?", "options": ["Kaveolin", "Klatrin", "COPI", "Aktin", "Dinein"], "answer": 1, "explain": "Reseptör aracılı endositozda klatrin kaplı çukurcuklar oluşur. COPI Golgi'den ER'ye geri taşımada, kaveolin ise kaveolalarda görev alır." },
+
+    { "id": "k1", "type": "info", "topic": "Klinik bağlantılar", "emoji": "🫁", "hook": "Tek bir klor kanalı bozulunca akciğer mukusla dolar", "body": "**Kistik fibrozis**: **CFTR** geni mutasyonu (en sık **ΔF508**) sonucu Cl⁻ kanalı bozulur. Salgılar koyulaşır; akciğer, pankreas ve ter bezleri etkilenir. **Ter testinde Cl⁻ yüksek** çıkar." },
+    { "id": "k2", "type": "info", "topic": "Klinik bağlantılar", "emoji": "🫀", "hook": "Reseptör yoksa kolesterol kanda kalır", "body": "**Ailesel hiperkolesterolemi**: **LDL reseptörü** defektlidir. Hücreler LDL'yi endositozla alamaz, kanda LDL yükselir ve **erken ateroskleroz** gelişir." },
+    { "id": "k3", "type": "mcq", "topic": "Klinik bağlantılar", "hook": "Ter testi pozitif 🧂", "question": "Kistik fibroziste defektli olan protein hangi işlevi görür?", "options": ["Na⁺/K⁺ pompası", "Klorür kanalı", "Glukoz taşıyıcısı", "LDL reseptörü", "Akuaporin"], "answer": 1, "explain": "CFTR, ABC taşıyıcı ailesinden bir Cl⁻ kanalıdır. İşlev kaybında ter testinde Cl⁻ yüksek çıkar." }
+  ]
+}
