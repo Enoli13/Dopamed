@@ -1,4 +1,9 @@
-# 🧠 Dopamed: sağlıklı brainrot ile tıp çalışması
+# 🧠 Dopamed: sağlıklı brainrot ile tıp çalışması (Android)
+
+> Tıp fakültesi ve ders çalışma uygulaması: PDF'ten kart, çıkmış soru düellosu, aralıklı tekrar (flashcard / spaced repetition).
+
+🌐 **Proje sayfası:** [https://enoli13.github.io/dopamed/](https://enoli13.github.io/dopamed/) · ⬇ [Son sürümü indir](https://github.com/Enoli13/dopamed/releases/latest)
+
 
 Konu PDF'lerini, ders slaytlarını ve çıkmış soruları Reels/Shorts tadında kısa kartlara çeviren Android uygulaması. Reklam yok, satın alma yok, tamamen ücretsiz.
 
